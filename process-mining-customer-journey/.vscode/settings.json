@@ -1,0 +1,13 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/venv/Scripts/python.exe",
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}",
+    "C:\\Users\\Dang Tran Tien\\AppData\\Roaming\\Python\\Python310\\site-packages",
+    "C:\\Users\\Dang Tran Tien\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages"
+  ],
+  "python.autoComplete.extraPaths": [
+    "${workspaceFolder}",
+    "C:\\Users\\Dang Tran Tien\\AppData\\Roaming\\Python\\Python310\\site-packages",
+    "C:\\Users\\Dang Tran Tien\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages"
+  ]
+}

@@ -1,0 +1,12 @@
+case:concept:name,concept:name,time:timestamp
+session_001,view,2024-01-10 08:00:00
+session_001,view,2024-01-10 08:05:00
+session_001,cart,2024-01-10 08:10:00
+session_001,purchase,2024-01-10 08:15:00
+session_002,view,2024-01-10 09:00:00
+session_002,cart,2024-01-10 09:12:00
+session_002,view,2024-01-10 09:20:00
+session_003,view,2024-01-10 10:00:00
+session_003,view,2024-01-10 10:05:00
+session_003,cart,2024-01-10 10:10:00
+session_003,purchase,2024-01-10 10:30:00
