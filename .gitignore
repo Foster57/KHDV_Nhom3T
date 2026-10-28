@@ -36,3 +36,6 @@ share/python-wheels/
 # IDE & OS
 .DS_Store
 Thumbs.db
+
+# Data files
+event_log_sample.csv
