@@ -5,17 +5,13 @@ Logic DFG sẽ được bổ sung ở tuần sau.
 """
 
 import streamlit as st
+from utils import get_data, sidebar_uploader
 
+st.set_page_config(page_title="Process Map", layout="wide")
 st.title("🗺️ Process Map (DFG)")
 
-# Lấy dữ liệu từ session_state (đã upload ở trang chủ)
-df = st.session_state.get("event_log")
-
-if df is None:
-    st.warning(
-        "⚠️ Chưa có dữ liệu! Vui lòng quay lại **trang chủ** để upload file CSV."
-    )
-    st.stop()
+sidebar_uploader()
+df = get_data()
 
 # Hiển thị caption số dòng hiện tại
 st.caption(f"📊 Dữ liệu hiện tại: **{len(df)}** dòng")
