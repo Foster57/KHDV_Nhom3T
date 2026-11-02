@@ -36,3 +36,19 @@ share/python-wheels/
 # IDE & OS
 .DS_Store
 Thumbs.db
+
+# Large datasets
+data/raw/
+data/interim/
+data/processed/*.parquet
+data/processed/ml/*.parquet
+
+# Trained ML models
+*.joblib
+
+# Dataset archives
+*.zip
+*.csv.gz
+
+# Environment variables
+.env

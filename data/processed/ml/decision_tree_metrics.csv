@@ -1,0 +1,2 @@
+train_sessions,test_sessions,test_purchase_rate,roc_auc,average_precision,random_baseline_ap
+197011,49253,0.12527155706251397,0.5224999380224616,0.13505986117840504,0.12527155706251397
