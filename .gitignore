@@ -52,3 +52,5 @@ data/processed/ml/*.parquet
 
 # Environment variables
 .env
+# Data files
+event_log_sample.csv
