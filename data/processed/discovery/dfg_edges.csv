@@ -1,0 +1,17 @@
+source,target,frequency,avg_gap_seconds,median_gap_seconds,transitions_within_30min
+view,view,4081376,7179.99,46.0,3909743
+cart,cart,3746497,1780.08,13.0,3728021
+remove_from_cart,remove_from_cart,2998159,894.01,1.0,2992519
+view,cart,1405970,6061.25,36.0,1385081
+purchase,purchase,1128117,148.57,0.0,1128041
+cart,view,1036695,3837.91,42.0,1019587
+remove_from_cart,view,494698,4871.71,16.0,485725
+view,remove_from_cart,437692,6063.05,23.0,428565
+cart,remove_from_cart,417988,4816.14,21.0,409741
+remove_from_cart,cart,245093,15088.25,54.0,239781
+cart,purchase,60647,3467.33,176.0,59070
+remove_from_cart,purchase,53558,3797.41,161.0,52433
+view,purchase,27702,5670.57,216.0,26619
+purchase,view,12853,194679.83,248.0,9770
+purchase,cart,4403,850142.25,514.0,2701
+purchase,remove_from_cart,853,1176384.4,245.0,571

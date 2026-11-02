@@ -1,0 +1,3 @@
+cluster,sessions,avg_views,avg_carts,avg_removes,avg_purchases,avg_products,median_duration_seconds,purchase_session_rate,share_pct
+0,173919,1.275,0.229,0.061,0.024,1.325,0.0,0.007,87.05
+1,25862,7.748,8.223,6.499,2.137,14.712,1046.0,0.22,12.95
