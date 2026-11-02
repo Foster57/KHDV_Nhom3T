@@ -1,0 +1,3 @@
+transition,sessions_within_24h,avg_seconds_within_24h,median_seconds_within_24h,p90_seconds_within_24h
+Cart to Purchase,99804,1886.58,828.0,4258.0
+View to Cart,720112,578.66,84.0,750.0

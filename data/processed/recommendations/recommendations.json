@@ -1,0 +1,52 @@
+[
+  {
+    "rule_id": "R01",
+    "title": "Investigate View-to-Cart drop-off",
+    "evidence": "View-to-Cart conversion: 16.92%",
+    "interpretation": "A relatively small share of sessions with View reaches Cart afterward. This does not identify the cause.",
+    "recommended_action": "Review product-page information, add-to-cart visibility, and product availability. Prioritize usability testing before making changes.",
+    "validation_plan": "Compare product-page behavior and run an A/B test on a selected change. Track ordered View-to-Cart conversion.",
+    "priority": "high",
+    "recommendation_type": "hypothesis_to_test"
+  },
+  {
+    "rule_id": "R02",
+    "title": "Investigate Cart-to-Purchase drop-off",
+    "evidence": "Cart-to-Purchase conversion: 13.93%",
+    "interpretation": "Many sessions reaching Cart after View do not have a later recorded Purchase.",
+    "recommended_action": "Investigate shipping costs, checkout usability, payment methods and stock availability using additional data.",
+    "validation_plan": "Collect checkout-stage events and test one intervention at a time. Measure Cart-to-Purchase conversion.",
+    "priority": "high",
+    "recommendation_type": "hypothesis_to_test"
+  },
+  {
+    "rule_id": "R05",
+    "title": "Improve predictive model before deployment",
+    "evidence": "Decision Tree ROC-AUC: 0.5225",
+    "interpretation": "The model has weak discrimination and should not drive automated customer targeting.",
+    "recommended_action": "Add pre-decision product, price and behavioral features. Compare against a simple baseline and evaluate on a later time period.",
+    "validation_plan": "Reassess ROC-AUC, average precision, calibration and business utility on a held-out test set.",
+    "priority": "high",
+    "recommendation_type": "hypothesis_to_test"
+  },
+  {
+    "rule_id": "R03",
+    "title": "Investigate Cart-to-Purchase duration",
+    "evidence": "Median Cart-to-Purchase duration within 24h: 828 seconds",
+    "interpretation": "The observed interval is relatively long under the configured 10-minute screening threshold. It is not direct evidence of checkout delay.",
+    "recommended_action": "Instrument checkout steps and review where users spend time before purchase.",
+    "validation_plan": "Measure step-level checkout duration and completion rate after instrumentation.",
+    "priority": "medium",
+    "recommendation_type": "hypothesis_to_test"
+  },
+  {
+    "rule_id": "R04",
+    "title": "Study differences between session segments",
+    "evidence": "Purchase-session-rate difference between clusters: 21.3%",
+    "interpretation": "Session clusters have different observed purchase rates. Because purchase counts were clustering features, this is descriptive rather than predictive evidence.",
+    "recommended_action": "Compare behavioral patterns and product categories across clusters. Do not target customers using these cluster labels without further study.",
+    "validation_plan": "Validate segment stability on another period and test whether pre-purchase features can reproduce useful segments.",
+    "priority": "medium",
+    "recommendation_type": "hypothesis_to_test"
+  }
+]
